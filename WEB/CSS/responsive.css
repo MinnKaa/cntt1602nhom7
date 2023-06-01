@@ -1,0 +1,96 @@
+/*Mobile*/
+@media only screen and (max-width: 46.1875em ) {
+    .truyen-hot{
+        max-width: 46.1875em;
+        width: 85%;
+        margin-left: 5%;
+    }
+    .menu-bxh {
+        position: absolute;
+        max-width: 46.1875em;
+        margin-top: 800%;
+        width: 60%;
+    }
+    .tongquan {
+        width: 50%;
+        max-width: 46.1875em;
+        display: none;
+    }
+    header {
+        max-width: 46.1875em;
+        width: 100%;
+        overflow:hidden;
+    }
+    .anhtruyen {
+        flex-direction: column;
+        
+    }
+    .truyen-hot #at li {
+        float: none;
+    }
+    .search {
+        display: none;
+    }
+    .sb-text {
+        display: block;
+    }
+    .main-menu li a {
+        
+        font-size: 25px;
+    }
+    .tl {
+        font-size: 25px;
+    }
+    .main-menu {
+        display: none;
+    }
+    #wrapper {
+        margin-left: 80%;
+    }
+}
+
+/*Tablet*/
+@media only screen and (min-width: 46.25em ) and (max-width: 63.9375em) {
+    .truyen-hot{
+        max-width: 51.25em;
+        width: 85%;
+        margin-left: 10%;
+    }
+    .menu-bxh {
+        max-width: 51.25em;
+        margin-top: 220%;
+        width: 60%;
+       margin-left: 20%;
+
+    }
+    .tongquan {
+        width: 50%;
+        max-width: 51.25em;
+        display: none;
+    }
+    header {
+        max-width: 51.25em;
+        width: 100%;
+        overflow:hidden;
+       height: auto;
+    }
+    
+    .sb-sbm {
+        display: none;
+    }
+    .tl {
+        text-overflow: ellipsis;
+    }
+    .btn{
+        display: none;
+     }
+    
+}
+
+/*PC*/
+@media only screen and (min-width: 64em ) {
+    .btn{
+        display: none;
+     }
+}
+
